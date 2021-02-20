@@ -21,21 +21,21 @@ from tg_bot.modules.helper_funcs.alternate import typing_action
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}
-I am a group management bot.	
+Hi {}, my name is {𝙿𝚒𝚔𝚊𝚌𝚑𝚞}
+I am a Powerful group management bot. 🔥	
 Build by weebs for weebs, I specialize in managing groups.	
 You can find my list of available commands with :	
 👉 /help.
 """
 
 
-BOT_IMG = "https://telegra.ph/file/2fbf54ecf569496431507.jpg"
+BOT_IMG = "https://telegra.ph/file/4aa138e0ffad2b07e602c.jpg"
 
 
 
 
 HELP_STRINGS = """
-*Helpful Commands :* [.](https://telegra.ph/file/2fbf54ecf569496431507.jpg)
+*Helpful Commands :* [.](https://telegra.ph/file/4aa138e0ffad2b07e602c.jpg)
 ✧ /start: Starts me! You've probably already used this.
 ✧ /help: Sends this message; I'll tell you more about myself!
 ✧ /settings: 
@@ -150,7 +150,7 @@ def start(update, context):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="Add kora to your group",
+                            text="Add Pika to your group",
                             url="t.me/{}?startgroup=true".format(context.bot.username))
                     ],
                     [
@@ -164,7 +164,7 @@ def start(update, context):
                     [
                         InlineKeyboardButton(
                             text="help",
-                            url="https://t.me/koragroup_bot?start=help")
+                            url="https://t.me/PikaGroupAKbot?start=help")
                     ]]))
        
 #@run_async
